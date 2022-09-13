@@ -1,4 +1,4 @@
-#include "damilola.h"
+#include "main.h"
 
 /**
  * main - prints Damilola
