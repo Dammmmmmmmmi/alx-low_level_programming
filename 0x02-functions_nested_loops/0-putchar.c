@@ -1,23 +1,15 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - prints Damilola
+ * main - Entry point
  *
- * Description: prints Damilola
- *
- * Return: 0 (Success)
+ * Return: Always success
  */
-
 int main(void)
 {
-	char text[10] = "Damilola";
-	int i = 0;
 
-       	for (i = 0; i < 8; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
+printf("_putchar\n");
 
-	return (0);
+return (0);
 }
