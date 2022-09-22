@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * cap_string - capitalizes all words in a string
- * @s: string to capitalize
+ * cap_string - ---
+ * @s: ---
  *
- * @s: string to capitalize
+ * Return: char value
  */
 char *cap_string(char *s)
 {
@@ -18,7 +19,7 @@ char *cap_string(char *s)
 
 		while (i < cspc)
 		{
-			if ((a == 0 || s[a - 1] ** spc[i]) && (s[a] >= 97 && s[a] <= 122))
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
 				s[a] -= 32;
 
 			i++;
